@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+	word-spacing: 100%;
+	font-size: 105%;
+	font-weight: bold;
+    font-family: sans-serif;
+    color: #000;
+	
+}
+
+.gian{
+	position: relative;
+	width: 90%;
+	height: 100vh;
+	word-spacing: inline;
+	background: #FDFEFE ;
+}
+
+nav{
+
+	display: flex;
+	width: 100%;
+	margin: auto;
+	padding: 5px 15px;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 10px 20px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+}
+
+.comrades{
+	margin-left: 15%;
+	margin-top: 15%;
+	
+}
+
+.comrades h1{
+	font-size: 50px;
+	color: #212121;
+	margin-bottom: 20px;
+}
+.comrades h3{
+	font-size: 18px;
+	letter-spacing: 1px;
+	line-height: 24px;
+	color: indigo;
+}
+span{
+	color: indigo;
+}
+
+.images img{
+  height: 80%;
+  position: absolute;
+  left: 60%;
+  bottom: 0;
+  }
